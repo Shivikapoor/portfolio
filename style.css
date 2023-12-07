@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #190482;
+    color: #8E8FFA;
+    font-family: 'Playfair Display', serif;
+    color: #7752FE;
+    color: #C2D9FF;
+}
+
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+    z-index: 10;
+    background-color: black;
+}
+
+.name {
+    font-size: 35px;
+    color: #C2D9FF;
+    font-style: italic;
+    padding-right: 660px;
+
+}
+
+.nav-ele {
+    text-decoration: none;
+    color: #8E8FFA;
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+.nav-ele:hover {
+    color: #C2D9FF;
+    font-size: 22px;
+}
+
+.hero-bg-img-container {
+    width: 100%;
+    height: 98vh;
+}
+
+.img-bg {
+    width: 100%;
+    height: 98vh;
+    object-fit: cover;
+}
+
+.hero-bg-img-overlays {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 98vh;
+    background: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(to top,
+            rgba(0, 0, 0, 0.0) 0,
+            rgba(0, 0, 0, 0.619) 60%,
+            rgba(0, 0, 0, 0.991) 100%);
+}
+
+.hero-card {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.hero-img {
+    width: 300px;
+    height: 500px;
+    margin-left: 30vh;
+    border: white solid 2px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    margin-right: 20px;
+}
+
+.hero-card1 {
+    position: absolute;
+    top: 20%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 80vh;
+    margin-right: 30vh;
+    margin-top: 5vh;
+
+
+}
+
+.title1 {
+    /* font-family: 'Allura', cursive;
+    font-family: 'Arizonia', cursive;
+    font-family: 'Parisienne', cursive; */
+    font-family: 'The Nautigal', cursive;
+    font-size: 80px;
+    color: #C2D9FF;
+}
+
+.title2 {
+    font-family: 'Playfair Display', serif;
+    margin-left: 10vh;
+    font-size: 30px;
+    color: white;
+}
+
+.discription1 {
+    font-family: 'Playfair Display', serif;
+    margin-left: 10vh;
+    font-size: 20px;
+    color: white;
+}
+
+.button1 {
+    font-family: 'Playfair Display', serif;
+    margin-left: 10vh;
+    margin-right: 50vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #190482;
+    border: white solid 2px;
+    background-color: white;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+
+}
+
+.button1:hover {
+    color: #190482;
+    border: #ccccf4 solid 2px;
+    background-color: #9e9ebd;
+}
+
+.hero-img-bg-container-2 {
+    width: 100%;
+    height: 98vh;
+    position: absolute;
+}
+
+.img-bg-2 {
+    width: 100%;
+    height: 98vh;
+    object-fit: cover;
+    position: relative;
+}
+
+.bg-container-overlay-2 {
+    position: absolute;
+    inset: 0;
+    top: 100%;
+    width: 100%;
+    height: 99vh;
+    background: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(to top,
+            rgba(0, 0, 0, 0.906) 0,
+            rgba(0, 0, 0, 0.342) 60%,
+            rgba(0, 0, 0, 0) 100%);
+}
+
+.parent-div-of-teen-dabbe {
+    padding-top: 10vh;
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.aboutme {
+    top: 30px;
+    position: relative;
+    text-align: center;
+    font-family: 'The Nautigal', cursive;
+    font-size: 75px;
+    color: #190482;
+    margin-left: 15vh;
+    margin-right: 30vh;
+}
+
+.dabba-1,
+.dabba-2,
+.dabba-3 {
+    margin: 30px;
+    margin-left: 70px;
+    padding: 30px;
+    top: 50vh;
+    border: black solid 1px;
+    background: rgba(0, 0, 0, 0.368);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.skillss {
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.html {
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.edu {
+    font-size: 20px;
+}
+
+.img5 {
+    margin-top: 18vh;
+    width: 100%;
+    height: 99vh;
+    position: absolute;
+}
+
+.img5-overlays {
+    position: absolute;
+    inset: 3;
+    margin-top: 17vh;
+    width: 100%;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(to top,
+            rgba(0, 0, 0, 0.0) 0,
+            rgba(0, 0, 0, 0.753) 60%,
+            rgba(0, 0, 0, 0.92) 100%);
+
+}
+
+.projects {
+    top: 8vh;
+    position: relative;
+    text-align: center;
+    font-family: 'The Nautigal', cursive;
+    font-size: 75px;
+    color: white;
+    margin-left: 15vh;
+    margin-right: 30vh;
+}
+
+.project-1,
+.project-2 {
+    width: 500px;
+    height: 300px;
+    border: white solid 1px;
+    box-shadow: #C2D9FF;
+}
+
+
+.project-dabba {
+    padding-top: 20vh;
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 20vh;
+    gap: 20vh;
+}
+
+.project1-discription,
+.project2-discription {
+    padding: 20px;
+    width: 68vh;
+    margin-top: 5vh;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: #ccccf4 solid 2px;
+    background: #c2d9ff97;   
+}
+
+.img-bg-4 {
+    margin-top: 13vh;
+    width: 100%;
+    height: 99vh;
+    position: absolute;
+}
+
+.bg-container-overlay-4 {
+    position: absolute;
+    inset: 3;
+    margin-top: 13vh;
+    width: 100%;
+    height: 99vh;
+    background: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(to top,
+            rgba(0, 0, 0, 0.95) 0,
+            rgba(0, 0, 0, 0.546) 60%,
+            rgba(0, 0, 0, 0.0) 100%);
+
+}
+
+.contact-page {
+    padding-top: 20vh;
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 20vh;
+    gap: 20vh;
+}
